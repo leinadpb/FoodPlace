@@ -1,0 +1,48 @@
+<!--  CREATE NEW PLACE -->
+<div class="bodyPage">
+
+  <!-- HEADER -->
+  <div class="header">
+
+    <!-- MAIN MENU -->
+    <div>
+      <ul class="nav nav-tabs nav-justified">
+        <li class="pageLinks"><a href="/app/index">myFoodPlace</a></li>
+        <li class="pageLinks"><a href="#" class="mainLinks" class="link1">Login</a></li>
+        <li class="pageTitle"><a href="/places/new" class="mainLinks" class="link2" class="title"><b>Create Place</b></a></li>
+      </ul>
+    </div>
+    <!-- Search Box -->
+
+  </div>
+
+  <div class="formulario">
+    <%= form_for :place do |f| %>
+        <div class="">
+          <%= f.label :nombre %><br>
+          <%= f.text_field :nombre, class: 'form-control inputs' %>
+        </div>
+
+        <div class="">
+          <%= f.label :descripcion %><br>
+          <%= f.text_field :descripcion,class: 'form-control inputs' %>
+        </div>
+        <div class="">
+          <%= f.label :username %><br>
+          <%= f.text_field :username, class: 'form-control inputs' %>
+        </div>
+        <div class="">
+          <%= f.label :email_field %><br>
+          <%= f.text_field :email_field, class: 'form-control inputs' %>
+        </div>
+        <div class="">
+          <%= f.label :password_field %><br>
+          <%= f.text_field :password_field, class: 'form-control inputs' %>
+        </div>
+
+        <div class="">
+          <%= f.submit class: 'form-control btnCreate'%>
+        </div>
+    <% end %>
+  </div>
+</div>

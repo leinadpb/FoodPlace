@@ -1,12 +1,34 @@
-// Place all the styles related to the app controller here.
+// Place all the styles related to the places controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.content{
-  width: 100%;
+.bodyPage{
+  margin: 0px;
+  color:darkslateblue;
 }
-.title {
-  color:white;
+.btnCreate{
+  margin-top: 10px;
+  background-color: #2b669a;
+  color: white;
+}
+.btnCreate:hover{
+  background-color:dodgerblue;
+  color: white;
+}
+.inputs{
+  margin-bottom: 10px;
+}
+.formulario{
+  width: 50%;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: white;
+}
+.nav-tabs .pageTitle a{
   background-color: darkslateblue;
+  color:white;
+  border: none;
+  box-shadow: none;
 }
 .nav-tabs .pageTitle a:hover{
   background-color: darkslateblue;
@@ -25,7 +47,4 @@
   color:darkslateblue;
   border: none;
   box-shadow: none;
-}
-.mainLinks{
-  color:white;
 }
