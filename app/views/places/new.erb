@@ -16,36 +16,36 @@
 
   </div>
 
-  <div class="formulario">
-    <%= form_for :place do |f| %>
-        <div class="">
-          <%= f.label :nombre %><br>
-          <%= f.text_field :nombre, class: 'form-control inputs' %>
-        </div>
+    <div class="formulario">
+      <%= form_for :place do |f| %>
+          <div class="">
+            <%= f.label :nombre %><br>
+            <%= f.text_field :nombre, class: 'form-control inputs' %>
+          </div>
 
-        <div class="">
-          <%= f.label :descripcion %><br>
-          <%= f.text_field :descripcion,class: 'form-control inputs' %>
-        </div>
-        <div class="">
-          <%= f.label :username %><br>
-          <%= f.text_field :username, class: 'form-control inputs' %>
-        </div>
-        <div class="">
-          <%= f.label :email_field %><br>
-          <%= f.text_field :email_field, class: 'form-control inputs' %>
-        </div>
-        <div class="">
-          <%= f.label :password_field %><br>
-          <%= f.text_field :password_field, class: 'form-control inputs' %>
-        </div>
-        <div class="">
-          <%= f.label :secret_key %><br>
-          <%= f.text_field :secret, class: 'form-control inputs' %>
-        </div>
-        <div class="">
-          <%= f.submit class: 'form-control btnCreate'%>
-        </div>
-    <% end %>
-  </div>
+          <div class="">
+            <%= f.label :descripcion %><br>
+            <%= f.text_field :descripcion,class: 'form-control inputs' %>
+          </div>
+          <div class="">
+            <%= f.label :username %><br>
+            <%= f.text_field :username, class: 'form-control inputs' %>
+          </div>
+          <div class="">
+            <%= f.label :email_field %><br>
+            <%= f.text_field :email_field, class: 'form-control inputs' %>
+          </div>
+          <div class="">
+            <%= f.label :password_field %><br>
+            <%= f.text_field :password_field, class: 'form-control inputs' %>
+          </div>
+          <div class="">
+            <%= f.label :secret_key %><br>
+            <%= f.text_field :secret, class: 'form-control inputs' %>
+          </div>
+          <div class="">
+            <%= f.submit class: 'form-control btnCreate'%>
+          </div>
+      <% end %>
+    </div>
 </div>
